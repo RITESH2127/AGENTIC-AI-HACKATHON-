@@ -59,3 +59,15 @@ Get the system running locally in minutes:
 ```bash
 git clone [https://github.com/ritesh2127/agentic-ai-hackathon-.git](https://github.com/ritesh2127/agentic-ai-hackathon-.git)
 cd agentic-ai-hackathon-
+## ⚙️ Setup & Installation
+
+### 2. Set Up Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install Dependencies
+pip install -r requirements.txt
+4. Configuration
+
+Create a .env file or export your API keys:
+export GROQ_API_KEY='your_groq_api_key_here'
